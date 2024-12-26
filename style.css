@@ -20,13 +20,13 @@ body {
   color: var(--grayish-blue);
 }
 
-.wrapper {
+main {
   display: flex;
   align-items: center;
   height: 100dvh;
 }
 
-.main {
+.container {
   max-width: 320px;
   margin: auto;
   background-color: var(--white);
@@ -36,12 +36,12 @@ body {
   box-shadow: 1px 2px 5px #57575771;
 }
 
-.main img{
+.container img{
   width: 100%;
   border-radius: 10px;
 }
 
-.main .info {
+.container .info {
   margin: auto;
   margin: 12px 0;
   width: 100%;
